@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<locale.h>
+#include<conio.h>
+#include<math.h>
+
+int main(){
+	setlocale(LC_ALL,"");
+	int i,n,d,a,s,c;
+	float m,r;
+
+	scanf("%d",&n);
+	for(i=0; i<=n;i++){
+		s = i+1;
+ 		a = i-1;
+		d = i*2;
+		m = i/2;
+		c = pow(i,3);
+		r = sqrt(i);
+
+		printf("\nO sucessor de %d é %d", i,s);
+		printf("\no antecessor de %d é %d",i,a);
+		printf("\no dobro de %d é %d",i,d);
+		printf("\na metade de %d é %f", i,m);
+		printf("\no cubo de %d é %d",i,c);
+		printf("\na raiz quadrada de %d é %f\n",i,r);
+
+		if(i % 2 == 0)
+			printf("o numero %d é par\n",i);
+		else
+			printf("o número %d é impar\n",i);
+
+		printf("------------------------------------------||------------------------------------------");
+	}
+	return (0);
+}
