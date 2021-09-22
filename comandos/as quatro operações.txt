@@ -1,0 +1,22 @@
+/* as quatro operações*/
+var
+	n1,n2,r1,r2,r3,r4;inteiros;
+inicio
+	escreva("insira um valor: ");
+	leia(n1);
+	escreva("insira um valor: ");
+	leia(n2);
+	n1+n2=r1;
+	n1-n2=r2);
+	n1*n2=r3);
+	n1/n2=r4);
+	
+	
+	escreva (n1"+"n2"="r1);
+	escreva (n1"-"n2"="r2);
+	escreva (n1"*"n2"="r3);
+	escreva (n1"/"n2"="r4);
+	
+fim
+	
+	

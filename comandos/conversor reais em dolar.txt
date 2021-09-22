@@ -1,0 +1,18 @@
+/*
+conversor real em dolar
+*/
+
+var
+	real,cotacao,dolar:real;
+inicio
+	escreva("Informe a cotação do Dólar: ");
+	leia(cotacao);
+	escreva("Informe a quantidade de Reais a ser convertida: ");
+	leia(reais);
+	dolar=real/cotacao;
+	escreva ("a cotação do dolar : ",cotacao);
+	escreva ("valor em real: ",real);
+	escreva ("valor em dolar: ",dolar);
+fim
+	
+	

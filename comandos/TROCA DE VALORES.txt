@@ -1,0 +1,16 @@
+/* ler dos valores para as variáveis A e B*/
+var
+	A,B,aux:real;
+inicio
+	escreva("insira um valor");
+	leia(A);
+	escreva("insira um valor");
+	leia(B);
+	escreva ("os seus numeros são", A,"e",B);
+	aux=A;
+	A=B;
+	B=aux;
+	escreva ("Apos a troca seus valores são", A,"e",B);
+fim
+	
+	

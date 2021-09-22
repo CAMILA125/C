@@ -1,0 +1,15 @@
+/* 
+calcular o volume de uma lata cilíndrica
+*/
+const
+	PI=3,14;
+var
+	r,h,Vol:real;
+inicio
+	escreva("Insira o raio");
+	leia (r);
+	escreva ("insira a altura");
+	leia (h);
+	Vol=PI*(r*r)*h;
+	escreva ("o volume é ",Vol);
+fim

@@ -1,0 +1,17 @@
+/* a soma dos quadrados*/
+var
+	n1,n2,n3,resultado:inteiro;
+inicio
+	escreva("insira um valor: ");
+	leia(n1);
+	escreva("insira um valor: ");
+	leia(n2);
+	escreva("insira um valor: ");
+	leia(n3);
+	resultado=(n1*n1)+(n2*n2)+(n3*n3);
+	
+	escreva ("O resultado é: ",resultado);
+	
+fim
+	
+	

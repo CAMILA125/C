@@ -1,0 +1,6 @@
+1- é uma variavel que serve para armazenar o local de memoria de uma outra variavel
+2- c
+3- a
+4- a
+5- 0-1-1-0
+6- nao, porque apos o scanf simboliza que sera armazenada no pointeiro e nao na variavel x.

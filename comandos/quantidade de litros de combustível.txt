@@ -1,0 +1,14 @@
+/*
+calcular a quantidade de litros de combustível
+*/
+
+var
+	litros, distancia:real;
+inicio
+	escreva("Informe a  distância do trajeto :");
+	leia(distancia);
+	litros=distancia/12;
+	escreva("a quantidade de litros foi: ",litros);
+fim
+	
+	
